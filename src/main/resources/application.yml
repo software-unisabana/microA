@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.21.20.167:9999/eureka/
+    fetch-registry: false
+
+spring:
+  application:
+    name: microA
